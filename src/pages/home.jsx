@@ -10,7 +10,7 @@ const Home = () => {
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
     city +
-    "&appid=0c8b41179f5e0e85745e60a5a044c871&units=metric";
+    "&appid=6ed23b839826047f3d855256f7a1647c&units=metric";
 
   const cityName = (e) => {
     setCity(e.target.value);
